@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/digital" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="inner-container">
+            <div>
+                <h3>HOME</h3>
+                <span class="player-1" id="actual-score"></span>
+                <div>
+                    <button onclick="addOne()">+1</button>
+                    <button onclick="addTwo()">+2</button>
+                    <button onclick="addThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <span class="player-2" id="guest-Score"></span>
+                <div>
+                    <button onclick="addguestOne()">+1</button>
+                    <button onclick="addguestTwo()">+2</button>
+                    <button onclick="addguestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="new-game" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
